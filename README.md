@@ -1,2 +1,72 @@
-# PREDICTIVE-ANALYSIS
-BUILD A MACHINE LEARNING MODEL (E.G., REGRESSION OR CLASSIFICATION) TO PREDICT OUTCOMES BASED ON A DATASET.
+COMPANY: CODTECH IT SOLUTIONS 
+NAME: MAYANK SARKAR
+INTERN ID: CT04DM1023
+DOMAIN: DATA ANALYTICS
+DURATION: 4 WEEKS
+MENTOR: NEELA SANTOSH
+
+A regression model to predict the prices of houses based on their square footage and the number of bedrooms and bathrooms.
+README file:
+---
+
+# House Price Prediction with Regression
+
+## Overview
+
+This project implements a  regression model to predict house prices based on square footage, number of bedrooms, and bathrooms. The model utilizes the "House Prices: Advanced Regression Techniques" dataset from Kaggle, which includes features like living area, bedrooms above ground, bathrooms, and sale prices.
+
+## Requirements
+
+- Python 3.x
+- Libraries:
+  - pandas
+  - numpy
+  - scikit-learn
+
+## Installation
+
+1. Install required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Download the dataset from Kaggle:
+   - Register or log in to Kaggle and download the dataset files (`train.csv` and `test.csv`) from [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
+   - Place the downloaded files in the project directory.
+
+## Usage
+
+1. Run the Jupyter notebook `DA.ipynb` or execute the Python script `DA.py`.
+   
+   ```bash
+   jupyter notebook DA.ipynb
+   ```
+
+   or
+
+   ```bash
+   ```
+
+2. Follow the instructions in the notebook/script to:
+   - Load and preprocess the dataset.
+   - Train a  regression model using features (`GrLivArea`, `BedroomAbvGr`, `FullBath`) to predict house prices (`SalePrice`).
+   - Evaluate the model's performance using metrics like Mean Squared Error (MSE) and R-squared.
+   - Make predictions for new data points.
+
+## File Descriptions
+
+- `DA.ipynb`: Jupyter notebook containing the implementation of the linear regression model.
+- `DA.py`: Python script for the same implementation as the notebook.
+- `train.csv`: Dataset used for training the model.
+- `test.csv`: Dataset used for testing the model.
+- `README.md`: This file, providing an overview of the project, installation instructions, usage guide, and file descriptions.
+
+## Credits
+
+Crafted With Love by **MAYANK**
+
+- Kaggle for providing the "House Prices: Advanced Regression Techniques" dataset.
+- [Scikit-learn](https://scikit-learn.org/) and [Pandas](https://pandas.pydata.org/) libraries for their machine learning and data manipulation functionalities.
+
+
