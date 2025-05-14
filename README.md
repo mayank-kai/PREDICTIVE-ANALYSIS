@@ -43,11 +43,6 @@ This project implements a  regression model to predict house prices based on squ
    jupyter notebook DA.ipynb
    ```
 
-   or
-
-   ```bash
-   ```
-
 2. Follow the instructions in the notebook/script to:
    - Load and preprocess the dataset.
    - Train a  regression model using features (`GrLivArea`, `BedroomAbvGr`, `FullBath`) to predict house prices (`SalePrice`).
